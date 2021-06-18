@@ -6,7 +6,7 @@
     <title>Dodaj</title>
 </head>
 <body>
-<form method="post" action="/add">
+<form method="post" action="/user/add">
     Dane użytkownika:<br>
     Nazwa użytkownika: <input type="text" name="username"><br>
     email: <input type="text" name="email"><br>

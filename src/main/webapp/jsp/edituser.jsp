@@ -8,7 +8,7 @@
     <title>Edycja użytkownika</title>
 </head>
 <body>
-<a href="/add">Dodaj użytkownika</a><br>
+<a href="/user/add">Dodaj użytkownika</a><br>
 <form action="/edit" method="post">
     Dane użytkownika:<br>
     ID: <c:out value="${id}"/><br>

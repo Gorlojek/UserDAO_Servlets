@@ -7,7 +7,7 @@
     <title>Szczegóły</title>
 </head>
 <body>
-<a href="/add">Dodaj użytkownika</a><br>
+<a href="/user/add">Dodaj użytkownika</a><br>
 Szczegóły użytkownika:<br>
 ID: <c:out value="${id}"/><br>
 Nazwa użytkownika: <c:out value="${username}"/><br>

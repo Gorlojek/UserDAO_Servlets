@@ -18,7 +18,7 @@ public class DeleteUser extends HttpServlet {
         int id = Integer.parseInt(req.getParameter("id"));
 
         userDao.delete(id);
-        resp.sendRedirect("/main");
+        resp.sendRedirect("/user/list");
 
     }
 }
